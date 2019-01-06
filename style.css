@@ -1,0 +1,32 @@
+.logo {
+    float:left;
+    width:auto;
+    height: 130px;
+    position: absolute;
+    top:-40px;
+    left:20px;
+}
+.navbar {
+    background-color:#452207;
+    position: fixed;
+    top:40px;
+    width:100%;
+}
+.navbar-item {
+    float: left;
+    display: block;
+    color:#BBD5B2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-item-first {
+    float: left;
+    display: block;
+    color:#BBD5B2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 170px;
+}
