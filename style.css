@@ -30,3 +30,36 @@
     text-decoration: none;
     padding-left: 170px;
 }
+
+.menu-title
+{
+    padding-top: 105px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-collumn{
+    flex:50%;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-collumn {
+        flex: 100%
+    }
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item span{
+    flex:100%;
+}
+.menu-item-cookie
+{
+    flex:100%;
+    width:170px;
+    height: 75px;
+}
